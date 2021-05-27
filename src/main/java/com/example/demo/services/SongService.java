@@ -3,8 +3,10 @@ package com.example.demo.services;
 import com.example.demo.model.Song;
 import com.example.demo.repositories.SongRepository;
 import org.springframework.stereotype.Service;
-import java.util.List;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
+import java.util.List;
+@CrossOrigin( origins = "*" )
 @Service
 public class SongService {
 
